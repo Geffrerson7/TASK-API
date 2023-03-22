@@ -1,10 +1,7 @@
 # TASK-API
 
-All app made with django-rest-framework and has the functions of user sign-up and login and also task creation.
-
 ## Description
-
-Todo app hecha con django-rest-framework y tiene las funciones de sign-up y login de usuarios y también creación de tareas.
+All app made with django-rest-framework and has the functions of user sign-up and login and also task creation.
 
 ## Getting Started
 
