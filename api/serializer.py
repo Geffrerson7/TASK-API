@@ -7,6 +7,7 @@ class TaskSerializer(serializers.ModelSerializer):
     class Meta:
         model = Task
         fields = '__all__'
+        read_only_fields = 'user',
         
     def to_representation(self, instance):
         representation = super().to_representation(instance)
