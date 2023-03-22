@@ -1,24 +1,23 @@
-# MOVIE-API-DJANGO
+# TASK-API
+
+All app made with django-rest-framework and has the functions of user sign-up and login and also task creation.
 
 ## Description
+
 Todo app hecha con django-rest-framework y tiene las funciones de sign-up y login de usuarios y también creación de tareas.
 
-## Run Locally
+## Getting Started
 
-Clonar el repositorio
-
+First clone the repository from Github and switch to the new directory:
 ```bash
-  https://github.com/Geffrerson7/TASK-API.git
+  $ clone git https://github.com/Geffrerson7/TASK-API.git
 ```
 
-Ir al directorio del proyecto
-
 ```bash
-  cd API-TASK
+  $ cd TASK-API
 ```
 
-## Setup
-Crear un entorno virtual y lo activamos:
+Activate the virtualenv for your project.
 
 ```sh
 $ python virtualenv venv
@@ -28,22 +27,27 @@ $ source venv/Scripts/activate
 $ source venv/bin/activate
 ```
 
-Luego instalar las librerias:
-
+Install project dependencies:
 ```sh
 (env)$ pip install -r requirements.txt
 ```
 
-Luego, realizamos las migraciones.
+Then simply apply the migrations:
 ```sh
 (env) $ python manage.py makemigrations
 (env) $ python manage.py migrate
 ```
 
-Una vez concluido, procedemos a iniciar la app
+You can now run the development server:
 ```sh
 (env)$ python manage.py runserver
 ```
 
+And navigate to
+```sh
+http://127.0.0.1:8000/
+```
+
 ## Author
+
 - [Gefferson Max Casasola Huamancusi](https://www.github.com/Geffrerson7)
