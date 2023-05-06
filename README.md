@@ -45,7 +45,7 @@ And navigate to
 http://127.0.0.1:8000/
 ```
 
-## Instalación en Docker del proyecto
+## Local Installation with Docker
 
 Clone the respository
 
