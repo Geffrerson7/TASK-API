@@ -45,6 +45,30 @@ And navigate to
 http://127.0.0.1:8000/
 ```
 
+## Instalación en Docker del proyecto
+
+Clone the respository
+
+```bash
+$ git clone https://github.com/Geffrerson7/TASK-API.git
+```
+
+Navigate to the new directory
+
+```bash
+$ cd TASK-API
+```
+
+Run the command
+```sh
+$ docker-compose up
+```
+
+And navigate to
+```sh
+http://127.0.0.1:8000/
+```
+
 ## Author
 
 - [Gefferson Max Casasola Huamancusi](https://www.github.com/Geffrerson7)
