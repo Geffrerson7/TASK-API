@@ -14,10 +14,13 @@ First clone the repository from Github and switch to the new directory:
   $ cd TASK-API
 ```
 
-Activate the virtualenv for your project.
+Create the virtual enviroment
+```bash
+  $ virtualenv venv
+```
 
-```sh
-$ virtualenv venv
+Activate the virtual enviroment for your project.
+```bash
 # windows
 $ source venv/Scripts/activate
 # Linux
@@ -26,18 +29,18 @@ $ source venv/bin/activate
 
 Install project dependencies:
 ```sh
-(env)$ pip install -r requirements.txt
+(venv)$ pip install -r requirements.txt
 ```
 
 Then simply apply the migrations:
 ```sh
-(env) $ python manage.py makemigrations
-(env) $ python manage.py migrate
+(venv) $ python manage.py makemigrations
+(venv) $ python manage.py migrate
 ```
 
 You can now run the development server:
 ```sh
-(env)$ python manage.py runserver
+(venv)$ python manage.py runserver
 ```
 
 And navigate to
